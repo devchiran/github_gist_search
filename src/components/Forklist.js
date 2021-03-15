@@ -15,15 +15,15 @@ const useStyles = makeStyles((theme) => ({
 function Forklist({ forks }) {
     const classes = useStyles();
     const forksList = forks && forks.map((item, index) => {
-        return <a href={item.forks_url} key={index}>
-            <Avatar alt={item.owner.login} src={item.owner.avatar_url} />
+        return <a href={item.forks_url} key={index} target="_blank" className="fork-list_link">
+            <Avatar alt={item.owner.login} src={item.owner.avatar_url} className="fork-list_avatar" />
         </a>
     });
     return (
         <>
-            <Typography gutterBottom variant="body1">Fork(s):</Typography>
+            <Typography gutterBottom variant="body1" className="fork-list_header">Fork(s):</Typography>
             <Divider variant="middle" />
-            <div className={classes.avatar}>
+            <div className={classes.avatar} className="fork-list_fork-wrapper">
                 { forksList }
             </div>
         </>

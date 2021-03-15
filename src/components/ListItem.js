@@ -49,13 +49,13 @@ function ListItem({ data }) {
             return acc
         }, []);
     const badges = filesArray.map((item, index) => {
-        return <Chip className={classes.chip} label={item} key={index} color="primary" />
+        return <Chip className={`${classes.chip} gist-list_badges`} label={item} key={index} color="primary" />
     });
 
     return (
-        <Grid item xs={12} sm={6} md={4} lg={3}>
-            <Paper className={classes.paper}>
-                <Typography gutterBottom variant="body1">File(s):</Typography>
+        <Grid item xs={12} sm={6} md={4} lg={3} className="gist-list_item">
+            <Paper className={classes.paper} elevation={2}>
+                <Typography gutterBottom variant="body1" className="files-list_header">File(s):</Typography>
                 <Divider variant="middle" />
                 <div>{badges}</div>
                 <br />
