@@ -16,14 +16,15 @@ Open [http://localhost:3000](http://localhost:3000) to view app in the browser.
 
 ### `Heroku Deployment`
 
-> The app is deployed in Heroku and can be visited [https://site-scheduling.herokuapp.com/](https://site-scheduling.herokuapp.com/) to access it in browser.
+> The app is deployed in Heroku and can be visited [https://github-gist-search.herokuapp.com/](https://github-gist-search.herokuapp.com/) to access it in browser.
 
 #
 ### `Run test suit`
-- There no functional code written preseently. Will be added as functional codes are getting added.
-
+```
+npm test
+```
 
 #
 ### `Assumption`
-- All the creative designs will follow the layout of bootstrap. So the output will be pixel perfect.
+- None
 
