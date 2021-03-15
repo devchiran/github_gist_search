@@ -24,7 +24,7 @@ function ListSection() {
                 <Grid container spacing={3} className={classes.grid}>
                     {
                         store.gist.isLoading ?
-                            <div  className={classes.loader}><CircularProgress /></div> :
+                            <div className={classes.loader}><CircularProgress /></div> :
                             store.gist.list.map((item, i) => {
                                 return <ListItem data={item} key={item.id} />
                             })

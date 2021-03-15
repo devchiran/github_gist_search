@@ -23,7 +23,7 @@ function Forklist({ forks }) {
         <>
             <Typography gutterBottom variant="body1" className="fork-list_header">Fork(s):</Typography>
             <Divider variant="middle" />
-            <div className={classes.avatar} className="fork-list_fork-wrapper">
+            <div className={`${classes.avatar} fork-list_fork-wrapper`}>
                 { forksList }
             </div>
         </>

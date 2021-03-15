@@ -1,6 +1,4 @@
-// import { render, screen } from '@testing-library/react';
 import HeaderNav from './HeaderNav';
-
 import { shallow } from 'enzyme';
 
 describe("Testing the initial element after the page load", () => {
