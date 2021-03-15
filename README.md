@@ -1,4 +1,4 @@
-# SCHEDULING
+# GitHub Gists Search
 
 :white_check_mark: This project is create using [Reactjs](https://reactjs.org/docs/getting-started.html), [MobX](https://mobx.js.org/), [Material-UI](https://material-ui.com/), and [GitHub-Gists](https://docs.github.com/en/rest/reference/gists).
 
